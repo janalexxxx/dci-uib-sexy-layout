@@ -1,9 +1,10 @@
 * {
+  /* Reset Styling */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 :root {
@@ -75,18 +76,20 @@ h3 {
 header {
   width: 100%;
   height: 80px;
+
   position: fixed;
   bottom: 40px;
 }
 
 header nav {
-  display: block;
   height: 100%;
-  background-color: var(--white);
-  margin: auto;
   width: 700px;
 
+  display: block;
+  margin: auto;
+
   border-radius: 40px;
+  background-color: var(--white);
 }
 
 nav ul {
@@ -96,9 +99,8 @@ nav ul {
 nav ul li {
   list-style-type: none;
   display: inline-block;
-  margin-top: 28px;
-  margin-left: 60px;
-  margin-right: 60px;
+
+  margin: 24px 60px;
 }
 
 nav ul li a {
@@ -121,14 +123,14 @@ nav ul li a:hover {
   background-size: cover;
 }
 
-#first-section h1 {
-  margin: 60% 40px 80px;
+#top-right-area {
+  padding: 30% 40px;
 }
 
 #first-section h2 {
   font-weight: 200;
 
-  margin: 40px;
+  margin-top: 40px;
 }
 
 /* ////////////////// */
@@ -136,7 +138,14 @@ nav ul li a:hover {
 /* Second Section */
 
 #second-section {
+  /* Float-Layout funktioniert nur in einem Container, dessen Größe definiert ist.
+     Deswegen müssen wir die Höhe hier setzen.
+     Alternativ könnten wir Inline-Block-Elemente oder Flexbox fürs Layout nutzen. */
   height: 400px;
+}
+
+#second-section section {
+  padding: 96px;
 }
 
 #second-left-area {
@@ -155,6 +164,7 @@ nav ul li a:hover {
 #second-section p {
   font-size: 1.5rem;
   color: var(--white80);
+
   margin: 48px;
 }
 
@@ -174,6 +184,7 @@ nav ul li a:hover {
 
 #third-section h3 {
   color: var(--white80);
+
   margin-top: 64px;
 }
 
