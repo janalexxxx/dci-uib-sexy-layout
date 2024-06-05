@@ -9,10 +9,6 @@ Aufgabe: Baut das Layout der folgenden Webseite so gut wie möglich nach.
 #### Normaler Screenshot
 ![Normaler Screenshot](./Website_Screenshot.png)
 
-#### Boxen Layout
-Hier siehst du wie das Layout aufgebaut ist. Alle Boxen haben eine rote Border:
-![Boxen Screenshot](./Website_Boxes.png)
-
 
 ### Tipps
 * Schaut euch das Video der Webseite an, um einen besseren Eindruck zu bekommen.
